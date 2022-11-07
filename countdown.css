@@ -1,0 +1,55 @@
+body{
+    background-color: white;
+    min-height: 100vh;
+    background-image: url("./papa-noel-20211224-1289351.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.time-count{
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 1px 1px 40px rgba(8, 24, 111, 0.2);
+    border-radius: 30px;
+    width: 700px;
+    height: 300px;
+    padding: 1px 50px;
+}
+.time-count_title{
+    margin: 0;
+    margin-bottom: 35px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+}
+.time-count_content{
+    display: flex;
+    justify-content:end;
+}
+.time-count_item{
+    text-align: center;
+}
+.time-count_val{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 82px;
+    color: green
+}
+.time-count_separator{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 74px;
+    text-align: center;
+    color: green;
+    margin: 0 43px;
+}
+.time-count_text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
